@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top p-2">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg p-2">
       <div class="container-fluid">
         <a class="navbar-brand fs-3" href="#">My Website</a>
         <button
@@ -38,6 +38,34 @@
         </div>
       </div>
     </nav>
+    <main class="d-flex justify-content-center flex-column align-items-center">
+      <h1 class="text-center p-5">My Website</h1>
+      <button
+        class="btn btn-dark m-5" style="width: 150px;"
+        data-bs-toggle="modal"
+        data-bs-target="#modalDiv"
+        aria-controls="modalDiv"
+      >
+        Open Modal
+      </button>
+      <div class="modal" id="modalDiv">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>My Website</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde nam ex impedit commodi quia, autem ad quam asperiores quibusdam aut. Architecto sed doloremque facilis veritatis sapiente molestiae est natus eum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
